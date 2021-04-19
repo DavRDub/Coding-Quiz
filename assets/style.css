@@ -1,0 +1,39 @@
+:root {
+background-color: lightblue;
+line-height: 1.15;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    color: blue;
+    background-color: lightgrey;
+}
+.navbar-highscore {
+    margin-left: 1%;
+}
+.navbar-timer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -1%;
+    margin-right: 1%;
+}
+.container {
+    justify-content: center;
+    display: flex;
+    margin-top: 1em;
+    border-color: rgb(129, 51, 51);
+}
+h1 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+}
+#startBtn {
+    display: grid;
+    margin: auto;
+}
+
+

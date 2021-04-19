@@ -9,17 +9,22 @@
         <link rel="stylesheet" type="text/css" href="assets/style.css"/>
     </head>
     <body>
-        <nav class="navbar navbar-light bg-light">
-            <a href="/highscore.html" id="highscores-link" class="navbar-text float-left">View High Scores</a>
-            <span class="navbar-text float-right">Time: <span id="timer">0</span></span>
+        <nav class="navbar">
+            <a href="/highscore.html" id="highscores-link" class="navbar-highscore">View High Scores</a>
+            <span class="navbar-timer">Time: <span id="timer">0</span></span>
         </nav>
-        <div class="container">
-            <div id="main" class="flex-center flex column">
-                
+        <div class="container mt5" id="homepage">
+            <div class="row jcc mt5 py3">
+                <div>
+                    <h1>Pokemon Surprise Quiz</h1> <br>
+                    <p>Answer the following questions regarding the Pokemon games in 75 seconds. <br>
+                    <strong>NOTE:</strong> <em>If you select the wrong answer, you'll lose 10 seconds on the Countdown Timer.</em></p> <br>
+                    <button type="button" id="startBtn">BATTLE!</button>
+                </div>
             </div>
         </div>
-        <script src="assets/highscore.js"></script>
-      <script src="assets/questions.js"></script>
-      <script src="assets/script.js"></script>  
+      <script type="text/javascript" src="assets/highscore.js"></script>
+      <script type= text/javascript src="assets/questions.js"></script>
+      <script type="text/javascript" src="assets/script.js"></script>  
     </body>
 </html>
